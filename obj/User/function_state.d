@@ -1,5 +1,5 @@
-User/main.o: ../User/main.c \
- C:\MRS_DATA\workspace\CH32V003F4P6\Debug/debug.h \
+User/function_state.o: ../User/function_state.c ../User/function_state.h \
+ ../User/GPIO_USART.h C:\MRS_DATA\workspace\CH32V003F4P6\Debug/debug.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\Core/core_riscv.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\User/system_ch32v00x.h \
@@ -22,8 +22,11 @@ User/main.o: ../User/main.c \
  C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x_wwdg.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x_opa.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x.h \
- ../User/function_state.h ../User/GPIO_USART.h ../User/fsm_table.h \
- ../User/type.h
+ ../User/fsm_table.h ../User/type.h
+
+../User/function_state.h:
+
+../User/GPIO_USART.h:
 
 C:\MRS_DATA\workspace\CH32V003F4P6\Debug/debug.h:
 
@@ -70,10 +73,6 @@ C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x_wwdg.h:
 C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x_opa.h:
 
 C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x.h:
-
-../User/function_state.h:
-
-../User/GPIO_USART.h:
 
 ../User/fsm_table.h:
 

@@ -5,17 +5,26 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../User/GPIO_USART.c \
 ../User/ch32v00x_it.c \
+../User/fsm_table.c \
+../User/function_state.c \
 ../User/main.c \
 ../User/system_ch32v00x.c 
 
 OBJS += \
+./User/GPIO_USART.o \
 ./User/ch32v00x_it.o \
+./User/fsm_table.o \
+./User/function_state.o \
 ./User/main.o \
 ./User/system_ch32v00x.o 
 
 C_DEPS += \
+./User/GPIO_USART.d \
 ./User/ch32v00x_it.d \
+./User/fsm_table.d \
+./User/function_state.d \
 ./User/main.d \
 ./User/system_ch32v00x.d 
 
