@@ -1,4 +1,4 @@
-User/main.o: ../User/main.c \
+FSM_TABLE/fsm_table.o: ../FSM_TABLE/fsm_table.c ../FSM_TABLE/fsm_table.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\FUNCTION/function_state.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\USART_GPIO/GPIO_USART.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\Debug/debug.h \
@@ -26,6 +26,8 @@ User/main.o: ../User/main.c \
  C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc/ch32v00x.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\FSM_TABLE/fsm_table.h \
  C:\MRS_DATA\workspace\CH32V003F4P6\TABLE_TYPE/type.h
+
+../FSM_TABLE/fsm_table.h:
 
 C:\MRS_DATA\workspace\CH32V003F4P6\FUNCTION/function_state.h:
 

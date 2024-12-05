@@ -16,6 +16,6 @@ C_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Debug/%.o: ../Debug/%.c
-	@	@	riscv-none-embed-gcc -march=rv32ecxw -mabi=ilp32e -msmall-data-limit=0 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -I"C:\MRS_DATA\workspace\CH32V003F4P6\Debug" -I"C:\MRS_DATA\workspace\CH32V003F4P6\Core" -I"C:\MRS_DATA\workspace\CH32V003F4P6\User" -I"C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
+	@	@	riscv-none-embed-gcc -march=rv32ecxw -mabi=ilp32e -msmall-data-limit=0 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -I"C:\MRS_DATA\workspace\CH32V003F4P6\Debug" -I"C:\MRS_DATA\workspace\CH32V003F4P6\Core" -I"C:\MRS_DATA\workspace\CH32V003F4P6\User" -I"C:\MRS_DATA\workspace\CH32V003F4P6\Peripheral\inc" -I"C:\MRS_DATA\workspace\CH32V003F4P6\FSM_TABLE" -I"C:\MRS_DATA\workspace\CH32V003F4P6\FUNCTION" -I"C:\MRS_DATA\workspace\CH32V003F4P6\USART_GPIO" -I"C:\MRS_DATA\workspace\CH32V003F4P6\TABLE_TYPE" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
 	@	@
 

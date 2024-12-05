@@ -6,6 +6,7 @@
 
 int process_button(void);
 
+void LEDTest(void);
 void LEDWait(void);
 void LEDLow(void);
 void LEDFast(void);

@@ -4,4 +4,5 @@ void (*const transition_table[st])(void) = {
     [stateWait] = LEDWait,
     [stateLow]  = LEDLow,
     [stateFast] = LEDFast,
+    //[stateTest] = LEDTest,
 };

@@ -10,8 +10,11 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include User/subdir.mk
+-include USART_GPIO/subdir.mk
 -include Startup/subdir.mk
 -include Peripheral/src/subdir.mk
+-include FUNCTION/subdir.mk
+-include FSM_TABLE/subdir.mk
 -include Debug/subdir.mk
 -include Core/subdir.mk
 -include subdir.mk

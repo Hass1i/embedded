@@ -1,7 +1,4 @@
-#include "debug.h"
-#include <stdbool.h>
 #include "function_state.h"
-#include "GPIO_USART.h"
 
 
 u8 statusB = 0;
@@ -18,10 +15,11 @@ int main(void)
     USART_Printf_Init(115200);
 #endif
     printf("SystemClk:%d\r\n",SystemCoreClock);
-    printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
+    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
     USARTx_CFG();
 
     while (1) {
+
             statusB = process_button();
             transition_table[statusB]();
        }

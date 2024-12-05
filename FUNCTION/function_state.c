@@ -7,6 +7,10 @@ uint8_t current_time = 0;
 void LEDWait(){
     GPIO_OFF(fl);
 }
+
+/*void LEDTest(){
+    GPIO_OFF(fl);
+}*/
 /*void LEDLow(void)
 {
   state = 0;

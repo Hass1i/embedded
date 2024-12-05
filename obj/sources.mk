@@ -25,7 +25,10 @@ C_DEPS :=
 SUBDIRS := \
 Core \
 Debug \
+FSM_TABLE \
+FUNCTION \
 Peripheral/src \
 Startup \
+USART_GPIO \
 User \
 
